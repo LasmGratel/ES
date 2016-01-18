@@ -1,0 +1,34 @@
+String version = "v2.1.9 finale-20"
+String Name = "Enterprising Sine " + version
+task copyMain(type: Copy) {
+    from 'src/main'
+    into 'build/tmp/main/.minecraft'
+}
+
+task copyLauncher(type: Copy, dependsOn: copyMain) {
+    from 'src/launcher'
+    into 'build/tmp/main'
+}
+
+task copyFullFirst(type: Copy, dependsOn: copyLauncher) {
+    from 'build/tmp/main'
+    into 'build/tmp/full'
+}
+task copyFull(type: Copy, dependsOn: copyFullFirst) {
+    from 'src/full'
+    into 'build/tmp/full/.minecraft/mods'
+}
+
+task zipMain(type: Zip, dependsOn: copyLauncher) {
+    from 'build/tmp/main'
+    baseName = Name + "-main"
+}
+
+task zipFull(type: Zip, dependsOn: copyFull) {
+    from 'build/tmp/full'
+    baseName = Name + "-full"
+}
+
+task clean << {
+    delete 'build/tmp'
+}

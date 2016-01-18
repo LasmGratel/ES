@@ -1,0 +1,19 @@
+{
+  "mods": {
+    "1.7.10-Forge10.13.4.1448-1.7.10": {
+      "baubles-1.7.10-1.0.1.10.jar": true,
+      "codechickenlib-1.7.10-1.1.3.138-universal.jar": true,
+      "codechickenlib-1.7.10-1.1.3.140-universal.jar": true,
+      "forgemultipart-1.7.10-1.2.0.345-universal.jar": true,
+      "forgerelocation-0.0.1.4-universal.jar": true,
+      "forgerelocation-1.7.10-0.0.1.3-universal.jar": true,
+      "forgerelocationfmp-1.7.10-0.0.1.2-universal.jar": true,
+      "hmcl-2.3.5.4": true,
+      "hmcl-2.3.5.6": true,
+      "mouse tweaks": true,
+      "mrtjpcore-1.1.0.31-universal.jar": true,
+      "mrtjpcore-1.7.10-1.1.0.31-universal.jar": true,
+      "voxelmap": true
+    }
+  }
+}

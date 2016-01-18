@@ -1,0 +1,21 @@
+{
+  "enableShadow": false,
+  "theme": 0,
+  "logintype": 0,
+  "downloadtype": 0,
+  "configurations": {
+    "Default": {
+      "name": "Default",
+      "selectedMinecraftVersion": "1.7.10-Forge10.13.4.1448-1.7.10",
+      "maxMemory": "2048",
+      "gameDir": ".\\.minecraft\\",
+      "java": "Default",
+      "fullscreen": false,
+      "debug": false,
+      "noJVMArgs": false,
+      "canceledWrapper": false,
+      "launcherVisibility": 0,
+      "gameDirType": 0
+    }
+  }
+}

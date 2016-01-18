@@ -1,0 +1,3151 @@
+{
+  "tabs": [
+    {
+      "uniqueName": "1440412012572",
+      "displayName": "Magica Decade",
+      "sortIndex": -1,
+      "isVisible": true,
+      "stack": "Thaumcraft:ItemGoggles 0",
+      "criteria": [
+        {
+          "uniqueName": "1440412116390",
+          "displayName": "Muggle",
+          "displayStack": "Thaumcraft:ItemThaumonomicon 0",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "Thaumcraft:WandCap 0",
+                "itemAmount": 2
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "minecraft:bookshelf"
+              }
+            }
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 6,
+          "y": 204,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1440412194641",
+          "displayName": "Observer",
+          "displayStack": "Thaumcraft:ItemThaumometer",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "Thaumcraft:ItemThaumometer"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "Thaumcraft:ItemInkwell 0"
+              }
+            }
+          ],
+          "prereqs": [
+            "1440412116390"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 65,
+          "y": 204,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1440412457444",
+          "displayName": "All IN ONE",
+          "displayStack": "Thaumcraft:blockTable 0",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "Thaumcraft:blockTable 0",
+                "itemAmount": 2
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "Thaumcraft:ItemInkwell 0"
+              }
+            }
+          ],
+          "prereqs": [
+            "1440412194641"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 196,
+          "y": 125,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1440412831048",
+          "displayName": "Not Use For Cooking",
+          "displayStack": "Thaumcraft:blockMetalDevice 0",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "Thaumcraft:blockMetalDevice 0"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "Thaumcraft:ItemShard 6"
+              }
+            }
+          ],
+          "prereqs": [
+            "1440412194641"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 52,
+          "y": 130,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1440412985001",
+          "displayName": "Another Way For Trash",
+          "displayStack": "Thaumcraft:blockTable 14",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "Thaumcraft:blockTable 14"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "minecraft:wool 0 *32"
+              }
+            }
+          ],
+          "prereqs": [
+            "1440412457444"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 292,
+          "y": 71,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1440413195038",
+          "displayName": "Magical Metal",
+          "displayStack": "Thaumcraft:ItemResource 2",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "Thaumcraft:ItemResource 2"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "Thaumcraft:ItemResource 2"
+              }
+            }
+          ],
+          "prereqs": [
+            "1440412831048",
+            "1440412457444"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 39,
+          "y": 70,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1440413444541",
+          "displayName": "Magical Extraction",
+          "displayStack": "Thaumcraft:blockStoneDevice 0",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "Thaumcraft:blockStoneDevice 0"
+              }
+            },
+            {
+              "type": "obtain",
+              "data": {
+                "item": "Thaumcraft:blockMetalDevice 1"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "Thaumcraft:blockMetalDevice 1"
+              }
+            }
+          ],
+          "prereqs": [
+            "1440412457444"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 185,
+          "y": 62,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1440413555043",
+          "displayName": "INFUSION",
+          "displayStack": "Thaumcraft:blockStoneDevice 2",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "Thaumcraft:blockCosmeticSolid 6",
+                "itemAmount": 4
+              }
+            },
+            {
+              "type": "obtain",
+              "data": {
+                "item": "Thaumcraft:blockCosmeticSolid 7",
+                "itemAmount": 4
+              }
+            },
+            {
+              "type": "obtain",
+              "data": {
+                "item": "Thaumcraft:blockStoneDevice 1"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "Thaumcraft:blockStoneDevice 2"
+              }
+            }
+          ],
+          "prereqs": [
+            "1440413444541"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 85,
+          "y": 12,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1440413745695",
+          "displayName": "You Should Look This",
+          "displayStack": "Thaumcraft:blockTable 15",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "Thaumcraft:blockTable 15"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "minecraft:paper *64"
+              }
+            }
+          ],
+          "prereqs": [
+            "1440412194641"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 152,
+          "y": 204,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1440413891948",
+          "displayName": "Handy",
+          "displayStack": "Thaumcraft:WandRod 0",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "Thaumcraft:WandRod 0"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "Thaumcraft:WandCap 1"
+              }
+            }
+          ],
+          "prereqs": [
+            "1440413745695",
+            "1440412457444"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 287,
+          "y": 170,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1440413937198",
+          "displayName": "Mastered",
+          "displayStack": "Thaumcraft:WandRod 2",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "Thaumcraft:WandRod 2"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "Thaumcraft:WandCap 6"
+              }
+            }
+          ],
+          "prereqs": [
+            "1440413891948"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 354,
+          "y": 171,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1440414166985",
+          "displayName": "Probability Yell",
+          "displayStack": "ThaumicTinkerer:enchanter",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "ThaumicTinkerer:enchanter"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "Thaumcraft:blockCosmeticSolid 0 *32"
+              }
+            }
+          ],
+          "prereqs": [
+            "1440413555043"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 181,
+          "y": 12,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1440414339237",
+          "displayName": "I spy",
+          "displayStack": "Thaumcraft:ItemGoggles 0",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "Thaumcraft:ItemGoggles 0"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "Thaumcraft:ItemGoggles 0"
+              }
+            }
+          ],
+          "prereqs": [
+            "1440412194641"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 10,
+          "y": 151,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1441013417376",
+          "displayName": "Mighty",
+          "displayStack": "Thaumcraft:WandRod 0",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "Thaumcraft:WandRod 0"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "Thaumcraft:WandCap 1"
+              }
+            }
+          ],
+          "prereqs": [
+            "1440412457444"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 297,
+          "y": 127,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1441013479831",
+          "displayName": "Pure",
+          "displayStack": "Thaumcraft:WandRod 2",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "Thaumcraft:WandRod 2"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "Thaumcraft:WandCap 6"
+              }
+            }
+          ],
+          "prereqs": [
+            "1441013417376"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 355,
+          "y": 129,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        }
+      ]
+    },
+    {
+      "uniqueName": "1438327926497",
+      "displayName": "The 3rd Industrial Revolution",
+      "sortIndex": 0,
+      "isVisible": true,
+      "stack": "IC2:itemToolWrench 0",
+      "criteria": [
+        {
+          "uniqueName": "1438327957798",
+          "displayName": "Forge no Forge",
+          "displayStack": "IC2:itemToolForgeHammer 0",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "IC2:itemToolForgeHammer 0"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:blockRubSapling"
+              }
+            }
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 9,
+          "y": 206,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1438328046449",
+          "displayName": "Extract from Tree",
+          "displayStack": "IC2:itemHarz",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "IC2:itemTreetap 0"
+              }
+            },
+            {
+              "type": "obtain",
+              "data": {
+                "item": "IC2:itemHarz",
+                "itemAmount": 16
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "minecraft:redstone *2"
+              }
+            }
+          ],
+          "prereqs": [
+            "1438327957798"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 87,
+          "y": 206,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1438328375638",
+          "displayName": "Your First Generator",
+          "displayStack": "IC2:blockGenerator 0",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "IC2:blockGenerator 0"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:itemCable 10 *4"
+              }
+            }
+          ],
+          "prereqs": [
+            "1440410860255"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 246,
+          "y": 206,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1438328584391",
+          "displayName": "Energy From Lava",
+          "displayStack": "IC2:blockGenerator 1",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "IC2:blockGenerator 1"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:itemCellEmpty 0 *16"
+              }
+            }
+          ],
+          "prereqs": [
+            "1438328375638"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 18,
+          "y": 96,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1438328707943",
+          "displayName": "Save Energy !(Ep1)",
+          "displayStack": "IC2:blockElectric 0 {}",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "IC2:blockElectric 0 {}",
+                "matchDamage": false
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:itemBatChargeRE 1 {charge:40000.0d}"
+              }
+            }
+          ],
+          "prereqs": [
+            "1438328375638"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 345,
+          "y": 206,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1438328990846",
+          "displayName": "Multiple by Twice",
+          "displayStack": "IC2:blockMachine 3",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "IC2:blockMachine 3"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:itemBatRE 1 {charge:10000.0d}"
+              }
+            }
+          ],
+          "prereqs": [
+            "1438328707943"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 381,
+          "y": 92,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1438508853127",
+          "displayName": "Age Before Quantum",
+          "displayStack": "IC2:blockMachine 14",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "IC2:blockMachine2 7"
+              }
+            },
+            {
+              "type": "obtain",
+              "data": {
+                "item": "IC2:blockMachine2 6"
+              }
+            },
+            {
+              "type": "obtain",
+              "data": {
+                "item": "IC2:blockMachine 14"
+              }
+            },
+            {
+              "type": "obtain",
+              "data": {
+                "item": "IC2:blockMachine2 8"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:itemOreIridium"
+              }
+            }
+          ],
+          "prereqs": [
+            "1438911738963"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 1217,
+          "y": 99,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1438866480015",
+          "displayName": "Extract More",
+          "displayStack": "IC2:blockMachine 4",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "IC2:blockMachine 4"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:itemTreetap 0"
+              }
+            },
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:itemTreetap 0"
+              }
+            }
+          ],
+          "prereqs": [
+            "1438328707943"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 313,
+          "y": 6,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1438866566000",
+          "displayName": "Compress O\u0027 Compress",
+          "displayStack": "IC2:blockMachine 5",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "IC2:blockMachine 5"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:itemBatSU *16"
+              }
+            }
+          ],
+          "prereqs": [
+            "1438328707943"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 347,
+          "y": 45,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1438866631501",
+          "displayName": "Greedy is Good!",
+          "displayStack": "IC2:blockMachine2 4",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "IC2:blockMachine2 4"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:itemCable 1 *16"
+              }
+            }
+          ],
+          "prereqs": [
+            "1438328707943"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 274,
+          "y": 95,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1438866767153",
+          "displayName": "Photosynthesis",
+          "displayStack": "IC2:blockGenerator 3",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "IC2:blockGenerator 3"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:blockGenerator 3"
+              }
+            }
+          ],
+          "prereqs": [
+            "1438328375638"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 292,
+          "y": 161,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1438866806204",
+          "displayName": "Raise Me Up!",
+          "displayStack": "IC2:blockKineticGenerator 0",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "IC2:blockKineticGenerator 0"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:itemwoodrotor 0"
+              }
+            }
+          ],
+          "prereqs": [
+            "1438868328012"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 38,
+          "y": 33,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1438868328012",
+          "displayName": "Kinetic to Eletric",
+          "displayStack": "IC2:blockGenerator 9",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "IC2:blockGenerator 9"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:blockElectric 0 {}"
+              }
+            }
+          ],
+          "prereqs": [
+            "1438328375638",
+            "1438866631501"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 114,
+          "y": 96,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1438868438215",
+          "displayName": "Merry-Go-Round",
+          "displayStack": "IC2:blockKineticGenerator 4",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "IC2:blockKineticGenerator 4"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:itemironrotor 0"
+              }
+            }
+          ],
+          "prereqs": [
+            "1438868328012"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 128,
+          "y": 31,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1438909634218",
+          "displayName": "Do Not Waste!",
+          "displayStack": "IC2:blockMachine 11",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "IC2:blockMachine 11"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:itemScrap *32"
+              }
+            }
+          ],
+          "prereqs": [
+            "1438866566000"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 445,
+          "y": 27,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1438909905370",
+          "displayName": "Tiner can a can!",
+          "displayStack": "IC2:blockMachine 6",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "IC2:blockMachine 6"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:blockMachine2 9"
+              }
+            },
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:blockMachine2 10"
+              }
+            }
+          ],
+          "prereqs": [
+            "1438328707943"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 438,
+          "y": 152,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1438910077924",
+          "displayName": "Electircal Oven",
+          "displayStack": "IC2:blockMachine 2",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "IC2:blockMachine 2"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:blockGenerator 0"
+              }
+            }
+          ],
+          "prereqs": [
+            "1438328707943"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 415,
+          "y": 126,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1438910266025",
+          "displayName": "Save Energy!(Ep2)",
+          "displayStack": "IC2:blockElectric 7 {}",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "IC2:blockElectric 7 {}"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:itemBatChargeAdv 1 {charge:400000.0d}"
+              }
+            }
+          ],
+          "prereqs": [
+            "1438910269076"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 655,
+          "y": 206,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1438910269076",
+          "displayName": "Low to Medium",
+          "displayStack": "IC2:blockElectric 3",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "IC2:blockElectric 3"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:itemAdvBat 1 {charge:100000.0d}"
+              }
+            }
+          ],
+          "prereqs": [
+            "1438328707943"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 510,
+          "y": 204,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1438910292776",
+          "displayName": "Heat\u0026Speed",
+          "displayStack": "IC2:blockMachine 13",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "IC2:blockMachine 13"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "minecraft:lever *16"
+              }
+            }
+          ],
+          "prereqs": [
+            "1438910077924",
+            "1438910266025"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 731,
+          "y": 126,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1438910513613",
+          "displayName": "Rotray\u0026Crush",
+          "displayStack": "AdvancedMachines:advancedmachines.block 0",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "AdvancedMachines:advancedmachines.block 0"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:itemAdvBat 1 {charge:100000.0d}"
+              }
+            }
+          ],
+          "prereqs": [
+            "1438910266025",
+            "1438328990846"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 715,
+          "y": 92,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1438910626664",
+          "displayName": "Like a Blackhole",
+          "displayStack": "AdvancedMachines:advancedmachines.block 1",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "AdvancedMachines:advancedmachines.block 1"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:itemPartAlloy *4"
+              }
+            }
+          ],
+          "prereqs": [
+            "1438866566000",
+            "1438910266025"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 689,
+          "y": 45,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1438910690515",
+          "displayName": "Waste Nothing",
+          "displayStack": "AdvancedMachines:advancedmachines.block 5",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "AdvancedMachines:advancedmachines.block 5"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:itemPartCarbonPlate *4"
+              }
+            }
+          ],
+          "prereqs": [
+            "1438909634218",
+            "1438910266025"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 630,
+          "y": 27,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1438911090971",
+          "displayName": "Extract Even a Drop",
+          "displayStack": "AdvancedMachines:advancedmachines.block 2",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "AdvancedMachines:advancedmachines.block 2"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:itemHarz *16"
+              }
+            }
+          ],
+          "prereqs": [
+            "1438910266025",
+            "1438866480015"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 539,
+          "y": 6,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1438911499159",
+          "displayName": "Medium to High",
+          "displayStack": "IC2:blockElectric 4",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "IC2:blockElectric 4"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:itemBatCrystal 1 {charge:1000000.0d}"
+              }
+            }
+          ],
+          "prereqs": [
+            "1438910266025"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 751,
+          "y": 207,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1438911554160",
+          "displayName": "Save Energy!(Ep3)",
+          "displayStack": "minecraft:stone",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "IC2:blockElectric 1 {}"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:itemBatChargeCrystal 1 {charge:4000000.0d}"
+              }
+            }
+          ],
+          "prereqs": [
+            "1438911499159"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 866,
+          "y": 207,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1438911738963",
+          "displayName": "Save Energy(Ep END?)",
+          "displayStack": "IC2:blockElectric 2 {}",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "IC2:blockElectric 2 {}"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:itemBatChargeLamaCrystal 1 {charge:\"4.0E7d\"}"
+              }
+            }
+          ],
+          "prereqs": [
+            "1438911759162"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 1114,
+          "y": 207,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1438911759162",
+          "displayName": "Higher than High",
+          "displayStack": "IC2:blockElectric 5",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "IC2:blockElectric 5"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:itemBatLamaCrystal 1 {charge:\"1.0E7d\"}"
+              }
+            }
+          ],
+          "prereqs": [
+            "1438911554160"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 992,
+          "y": 207,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1438911875315",
+          "displayName": "Does it Make Sense?",
+          "displayStack": "IC2:blockElectric 6",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "IC2:blockElectric 6"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "appliedenergistics2:item.ItemMultiMaterial 13"
+              }
+            }
+          ],
+          "prereqs": [
+            "1438911738963"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 1254,
+          "y": 207,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1438911963716",
+          "displayName": "Yes it Does!",
+          "displayStack": "AFSU:AFSU {energy:0}",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "AFSU:AFSU {energy:0}"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "appliedenergistics2:item.ItemMultiMaterial 19"
+              }
+            }
+          ],
+          "prereqs": [
+            "1438911875315"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 1393,
+          "y": 207,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1438912036417",
+          "displayName": "Three Heads Are Better than one",
+          "displayStack": "AdvancedMachines:advancedmachines.block 6",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "AdvancedMachines:advancedmachines.block 8"
+              }
+            },
+            {
+              "type": "obtain",
+              "data": {
+                "item": "AdvancedMachines:advancedmachines.block 6"
+              }
+            },
+            {
+              "type": "obtain",
+              "data": {
+                "item": "AdvancedMachines:advancedmachines.block 7"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "RIO:tile.machine 0"
+              }
+            }
+          ],
+          "prereqs": [
+            "1438910266025"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 795,
+          "y": 145,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1438912190869",
+          "displayName": "Harder Going Bad",
+          "displayStack": "AdvancedMachines:advancedmachines.block 3",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "AdvancedMachines:advancedmachines.block 3"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:itemTinCanFilled *16"
+              }
+            }
+          ],
+          "prereqs": [
+            "1438910266025",
+            "1438909905370"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 539,
+          "y": 152,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1438912333771",
+          "displayName": "Metal Washing",
+          "displayStack": "IC2:blockMachine2 5",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "IC2:blockMachine2 5"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "Translocator:translocator 1 *2"
+              }
+            }
+          ],
+          "prereqs": [
+            "1438328990846"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 439,
+          "y": 65,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1438912466723",
+          "displayName": "Dissolution Acceleration",
+          "displayStack": "AdvancedMachines:advancedmachines.block 4",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "AdvancedMachines:advancedmachines.block 4"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:itemCrushedOre 5 *16"
+              }
+            }
+          ],
+          "prereqs": [
+            "1438912333771",
+            "1438910266025"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 504,
+          "y": 65,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1438912619958",
+          "displayName": "Nuclear Fission",
+          "displayStack": "IC2:blockGenerator 5",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "IC2:blockGenerator 5"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:itemFuelRod *16"
+              }
+            }
+          ],
+          "prereqs": [
+            "1438912822760"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 1114,
+          "y": 62,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1438912653308",
+          "displayName": "Purification",
+          "displayStack": "IC2:blockMachine2 3",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "IC2:blockMachine2 3"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:itemToolMiningLaser 1 {charge:300000.0d}"
+              }
+            }
+          ],
+          "prereqs": [
+            "1438911554160",
+            "1439259207082"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 942,
+          "y": 115,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1438912778860",
+          "displayName": "Mild Reaction",
+          "displayStack": "IC2:blockGenerator 6",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "IC2:blockGenerator 6"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:itemRTGPellet"
+              }
+            }
+          ],
+          "prereqs": [
+            "1438912619958"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 975,
+          "y": 62,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1438912822760",
+          "displayName": "Prepare Beforehead",
+          "displayStack": "IC2:itemArmorHazmatHelmet 0",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "IC2:itemArmorHazmatHelmet 0"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "IC2:itemArmorHazmatChestplate 0"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "IC2:itemArmorHazmatLeggings 0"
+              }
+            },
+            {
+              "type": "crafting",
+              "data": {
+                "item": "IC2:itemArmorRubBoots 0"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:blockOreUran"
+              }
+            }
+          ],
+          "prereqs": [
+            "1438912653308"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 1041,
+          "y": 115,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1438913206565",
+          "displayName": "Burn!",
+          "displayStack": "IC2:blockGenerator 7",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "IC2:blockGenerator 7"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "BuildCraft|Energy:bucketFuel"
+              }
+            }
+          ],
+          "prereqs": [
+            "1438328375638"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 209,
+          "y": 116,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1438913274166",
+          "displayName": "White Elephant",
+          "displayStack": "IC2:blockMachine 15",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "IC2:blockMachine 15"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:itemTFBP *7"
+              }
+            }
+          ],
+          "prereqs": [
+            "1438911738963"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 1226,
+          "y": 159,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1438913538620",
+          "displayName": "You Finally Got Here",
+          "displayStack": "AdvancedSolarPanel:BlockMolecularTransformer",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "AdvancedSolarPanel:BlockMolecularTransformer"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:itemOreIridium *4"
+              }
+            }
+          ],
+          "prereqs": [
+            "1438508853127"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 1312,
+          "y": 49,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1438913711306",
+          "displayName": "Solar Comp",
+          "displayStack": "CompactSolars:CompactSolarBlock 0",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "CompactSolars:CompactSolarBlock 0"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "AdvancedSolarPanel:BlockAdvSolarPanel 0"
+              }
+            }
+          ],
+          "prereqs": [
+            "1438910269076",
+            "1438866767153"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 447,
+          "y": 182,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1438913800256",
+          "displayName": "64x Comp",
+          "displayStack": "CompactSolars:CompactSolarBlock 1",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "CompactSolars:CompactSolarBlock 1"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "AdvancedSolarPanel:BlockAdvSolarPanel 0"
+              }
+            }
+          ],
+          "prereqs": [
+            "1438911499159",
+            "1438913711306"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 823,
+          "y": 182,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1438913865557",
+          "displayName": "Maxium Comp",
+          "displayStack": "CompactSolars:CompactSolarBlock 2",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "CompactSolars:CompactSolarBlock 2"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "AdvancedSolarPanel:BlockAdvSolarPanel 0"
+              }
+            }
+          ],
+          "prereqs": [
+            "1438911759162",
+            "1438913800256"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 1063,
+          "y": 182,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1439259054731",
+          "displayName": "Refeed",
+          "displayStack": "IC2:blockKineticGenerator 2",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "IC2:blockKineticGenerator 1"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:itemRecipePart 1 *10"
+              }
+            }
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 821,
+          "y": 70,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1439259207082",
+          "displayName": "lathe",
+          "displayStack": "IC2:blockMachine3 8",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "IC2:blockMachine3 8"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:itemTurningBlanks 349525 {state:{l0:5,l1:5,l2:5,l3:5,l4:5}}"
+              }
+            },
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:itemLathingTool 0"
+              }
+            }
+          ],
+          "prereqs": [
+            "1439259054731"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 866,
+          "y": 112,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1440410860255",
+          "displayName": "Machina",
+          "displayStack": "IC2:blockMachine 12",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "Railcraft:machine.alpha 8"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:itemToolWrench 0"
+              }
+            }
+          ],
+          "prereqs": [
+            "1438328046449"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 177,
+          "y": 206,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        }
+      ]
+    },
+    {
+      "uniqueName": "1440415326601",
+      "displayName": "Tour",
+      "sortIndex": -3,
+      "isVisible": true,
+      "stack": "Natura:Obelisk",
+      "criteria": [
+        {
+          "uniqueName": "1440415495387",
+          "displayName": "Please Come Back",
+          "displayStack": "Natura:Obelisk",
+          "triggers": [
+            {
+              "type": "changeDimension",
+              "data": {
+                "to": -1
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "Natura:Obelisk"
+              }
+            }
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 257,
+          "y": 192,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1440415593889",
+          "displayName": "Ending",
+          "displayStack": "minecraft:end_portal_frame",
+          "triggers": [
+            {
+              "type": "changeDimension",
+              "data": {
+                "to": 1
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "Railcraft:machine.alpha 4"
+              }
+            }
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 224,
+          "y": 93,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1440416127345",
+          "displayName": "Drought",
+          "displayStack": "minecraft:sand 0",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "Thaumcraft:blockCustomPlant 3"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "minecraft:ender_pearl"
+              }
+            },
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:itemTinCanFilled *3"
+              }
+            }
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 156,
+          "y": 90,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1440416196096",
+          "displayName": "swampy",
+          "displayStack": "minecraft:dirt 2",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "minecraft:slime_ball"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "minecraft:ender_pearl"
+              }
+            },
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:itemTinCanFilled"
+              }
+            }
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 175,
+          "y": 141,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1440416607868",
+          "displayName": "Gift From Hills",
+          "displayStack": "minecraft:emerald",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "minecraft:emerald"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "minecraft:ender_pearl"
+              }
+            },
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:itemTinCanFilled *3"
+              }
+            }
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 54,
+          "y": 96,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1440419325846",
+          "displayName": "Frozen",
+          "displayStack": "minecraft:ice",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "minecraft:ice"
+              }
+            },
+            {
+              "type": "obtain",
+              "data": {
+                "item": "minecraft:snowball",
+                "itemAmount": 16
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "minecraft:ender_pearl"
+              }
+            },
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:itemTinCanFilled *3"
+              }
+            }
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 78,
+          "y": 155,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1440419399097",
+          "displayName": "European",
+          "displayStack": "minecraft:mycelium",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "minecraft:mycelium"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "minecraft:ender_pearl"
+              }
+            },
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:itemTinCanFilled *3"
+              }
+            }
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 70,
+          "y": 39,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1440419443797",
+          "displayName": "No Egg Use",
+          "displayStack": "minecraft:grass",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "minecraft:grass"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:itemTinCanFilled *5"
+              }
+            }
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 160,
+          "y": 43,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1440419500148",
+          "displayName": "Plank Manic",
+          "displayStack": "minecraft:planks 0",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "minecraft:planks 0"
+              }
+            },
+            {
+              "type": "obtain",
+              "data": {
+                "item": "minecraft:planks 1"
+              }
+            },
+            {
+              "type": "obtain",
+              "data": {
+                "item": "minecraft:planks 2"
+              }
+            },
+            {
+              "type": "obtain",
+              "data": {
+                "item": "minecraft:planks 3"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:itemTinCanFilled *3"
+              }
+            }
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 247,
+          "y": 35,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1440419578398",
+          "displayName": "Thaumic Gift",
+          "displayStack": "Thaumcraft:blockMagicalLog 0",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "Thaumcraft:blockMagicalLog 0"
+              }
+            },
+            {
+              "type": "obtain",
+              "data": {
+                "item": "Thaumcraft:blockMagicalLog 1"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "minecraft:ender_pearl"
+              }
+            },
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:itemTinCanFilled *3"
+              }
+            }
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 131,
+          "y": 196,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1440419639950",
+          "displayName": "Eating Careless",
+          "displayStack": "minecraft:rotten_flesh",
+          "triggers": [
+            {
+              "type": "onEaten",
+              "data": {
+                "amount": 16,
+                "item": "minecraft:rotten_flesh"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "IC2:itemTinCanFilled *5"
+              }
+            }
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 315,
+          "y": 108,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1441014710715",
+          "displayName": "Twilight Dash",
+          "displayStack": "TwilightForest:item.emptyMagicMap",
+          "triggers": [
+            {
+              "type": "changeDimension",
+              "data": {
+                "to": 7
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "TwilightForest:item.emptyMagicMap"
+              }
+            }
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 308,
+          "y": 49,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        }
+      ]
+    },
+    {
+      "uniqueName": "1437919141273",
+      "displayName": "First Step !",
+      "sortIndex": 0,
+      "isVisible": true,
+      "stack": "minecraft:book",
+      "criteria": [
+        {
+          "uniqueName": "1437919144322",
+          "displayName": "\"Firendly guide\"",
+          "displayStack": "Progression:item 2",
+          "triggers": [
+            {
+              "type": "tick",
+              "data": {}
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "Progression:item 2"
+              }
+            }
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 7,
+          "y": 170,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1437919242673",
+          "displayName": "The Beginning",
+          "displayStack": "minecraft:crafting_table",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "minecraft:crafting_table"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "minecraft:flint"
+              }
+            }
+          ],
+          "prereqs": [
+            "1437919144322"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 12,
+          "y": 124,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1437919473627",
+          "displayName": "Transform",
+          "displayStack": "TConstruct:CraftingStation",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "TConstruct:CraftingSlab 0"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "TConstruct:blankPattern 0 *4"
+              }
+            }
+          ],
+          "prereqs": [
+            "1437919242673"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 13,
+          "y": 73,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1437919760282",
+          "displayName": "Novice Tinker",
+          "displayStack": "TConstruct:ToolStationBlock 10",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "TConstruct:CraftingSlab 3"
+              }
+            },
+            {
+              "type": "obtain",
+              "data": {
+                "item": "TConstruct:CraftingSlab 4"
+              }
+            },
+            {
+              "type": "obtain",
+              "data": {
+                "item": "TConstruct:CraftingSlab 2"
+              }
+            },
+            {
+              "type": "obtain",
+              "data": {
+                "item": "TConstruct:CraftingSlab 1"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "TConstruct:woodPattern 1"
+              }
+            },
+            {
+              "type": "item",
+              "data": {
+                "item": "TConstruct:woodPattern 2"
+              }
+            }
+          ],
+          "prereqs": [
+            "1437919473627"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 29,
+          "y": 34,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1437920132987",
+          "displayName": "First pickaxe",
+          "displayStack": "TConstruct:pickaxeHead 3",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "TConstruct:pickaxeHead 3"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "TConstruct:Smeltery 0"
+              }
+            }
+          ],
+          "prereqs": [
+            "1437919760282"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 106,
+          "y": 34,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1437920330925",
+          "displayName": "Smelt \u0026 Cast",
+          "displayStack": "TConstruct:Smeltery 0",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "TConstruct:Smeltery 2",
+                "itemAmount": 9
+              }
+            },
+            {
+              "type": "obtain",
+              "data": {
+                "item": "TConstruct:Smeltery 1"
+              }
+            },
+            {
+              "type": "obtain",
+              "data": {
+                "item": "TConstruct:SearedBlock 1"
+              }
+            },
+            {
+              "type": "obtain",
+              "data": {
+                "item": "TConstruct:LavaTank 0"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "TConstruct:Smeltery 2 *9"
+              }
+            },
+            {
+              "type": "item",
+              "data": {
+                "item": "TConstruct:SearedBrick 5"
+              }
+            }
+          ],
+          "prereqs": [
+            "1437920132987"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 97,
+          "y": 71,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1437920801783",
+          "displayName": "Rule the liquid",
+          "displayStack": "TConstruct:metalPattern 2",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "TConstruct:metalPattern 2"
+              }
+            },
+            {
+              "type": "obtain",
+              "data": {
+                "item": "TConstruct:SearedBlock 0"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "TConstruct:materials 14"
+              }
+            }
+          ],
+          "prereqs": [
+            "1437920330925"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 118,
+          "y": 119,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1437920944968",
+          "displayName": "Harder than Flint",
+          "displayStack": "TConstruct:pickaxeHead 13",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "TConstruct:pickaxeHead 13"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "TConstruct:materials 14"
+              }
+            }
+          ],
+          "prereqs": [
+            "1437920801783"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 111,
+          "y": 168,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1437920996669",
+          "displayName": "Iron Miner",
+          "displayStack": "minecraft:stone",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "TConstruct:pickaxeHead 2"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "TConstruct:materials 14"
+              }
+            }
+          ],
+          "prereqs": [
+            "1437920944968"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 243,
+          "y": 169,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1437920998868",
+          "displayName": "The Era Of Bronze",
+          "displayStack": "TConstruct:pickaxeHead 14",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "TConstruct:pickaxeHead 14"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "TConstruct:materials 14"
+              }
+            }
+          ],
+          "prereqs": [
+            "1437920996669"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 250,
+          "y": 121,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1437961656261",
+          "displayName": "How the Steel was Tempered",
+          "displayStack": "Railcraft:machine.alpha 12",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "Railcraft:machine.alpha 12",
+                "itemAmount": 32
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "Railcraft:machine.alpha 12 *2"
+              }
+            }
+          ],
+          "prereqs": [
+            "1437920998868"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 272,
+          "y": 74,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1437961861497",
+          "displayName": "Soild as Steel",
+          "displayStack": "TConstruct:pickaxeHead 16",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "TConstruct:pickaxeHead 16"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "TConstruct:materials 14"
+              }
+            }
+          ],
+          "prereqs": [
+            "1437961656261"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 306,
+          "y": 23,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1437962095502",
+          "displayName": "Not the end",
+          "displayStack": "TConstruct:pickaxeHead 15",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "TConstruct:pickaxeHead 15"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "minecraft:diamond *3"
+              }
+            }
+          ],
+          "prereqs": [
+            "1437961861497"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 407,
+          "y": 22,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1437963883144",
+          "displayName": "So you just keep going",
+          "displayStack": "TConstruct:pickaxeHead 11",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "TConstruct:pickaxeHead 11"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "Railcraft:ore 5"
+              }
+            }
+          ],
+          "prereqs": [
+            "1437962095502"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 421,
+          "y": 65,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1437963937628",
+          "displayName": "Need For Speed",
+          "displayStack": "TConstruct:pickaxeHead 10",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "TConstruct:pickaxeHead 10"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "appliedenergistics2:item.ItemMultiMaterial 15"
+              }
+            }
+          ],
+          "prereqs": [
+            "1437963883144"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 405,
+          "y": 108,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1437964066880",
+          "displayName": "King Of the World",
+          "displayStack": "TConstruct:pickaxeHead 12",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "TConstruct:pickaxeHead 12"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "appliedenergistics2:item.ItemMultiMaterial 14"
+              }
+            }
+          ],
+          "prereqs": [
+            "1437963883144"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 504,
+          "y": 106,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1437964204132",
+          "displayName": "Casting Blocks",
+          "displayStack": "TConstruct:SearedBlock 2",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "TConstruct:SearedBlock 2"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "TConstruct:Smeltery 1"
+              }
+            },
+            {
+              "type": "item",
+              "data": {
+                "item": "TConstruct:SearedBlock 1"
+              }
+            }
+          ],
+          "prereqs": [
+            "1437920330925"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 182,
+          "y": 70,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1437964463886",
+          "displayName": "Eager For Better",
+          "displayStack": "TConstruct:ToolForgeBlock 7",
+          "triggers": [
+            {
+              "type": "crafting",
+              "data": {
+                "item": "TConstruct:CraftingSlab 5"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "TConstruct:materials 6"
+              }
+            }
+          ],
+          "prereqs": [
+            "1437964204132"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 209,
+          "y": 27,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        },
+        {
+          "uniqueName": "1440638074355",
+          "displayName": "Bilibili Marco Tech",
+          "displayStack": "OpenBlocks:blockbreaker",
+          "triggers": [
+            {
+              "type": "obtain",
+              "data": {
+                "item": "OpenBlocks:blockbreaker"
+              }
+            },
+            {
+              "type": "obtain",
+              "data": {
+                "item": "Railcraft:cart.undercutter 0",
+                "consume": true
+              }
+            },
+            {
+              "type": "obtain",
+              "data": {
+                "item": "BuildCraft|Transport:item.buildcraftPipe.pipeitemsstripes 0"
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "minecraft:bedrock *64"
+              }
+            },
+            {
+              "type": "item",
+              "data": {
+                "item": "minecraft:bedrock *64"
+              }
+            },
+            {
+              "type": "item",
+              "data": {
+                "item": "minecraft:bedrock *64"
+              }
+            },
+            {
+              "type": "item",
+              "data": {
+                "item": "minecraft:bedrock *64"
+              }
+            }
+          ],
+          "prereqs": [
+            "1437961656261"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "x": 351,
+          "y": 145,
+          "isVisible": true,
+          "mustClaim": false,
+          "displayAchievement": true
+        }
+      ]
+    }
+  ],
+  "defaultTabID": "DEFAULT",
+  "disableCraftingUntilRewardAdded": false,
+  "disableUsageUntilRewardAdded": false,
+  "unclaimedTileCanCraftAnything": false,
+  "unclaimedTileCanUseAnythingForCrafting": false,
+  "interfaceItem": "minecraft:book",
+  "displayRequirementsOnNEIClick": true
+}
